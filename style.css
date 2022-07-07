@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+.header {
+    /* margin: 14rem auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 55vh;
+    text-align: center;
+    color: white;
+    filter: drop-shadow(30px 10px 4px #000000);
+}
+
+/* CARDS */
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    text-align: center;
+    margin: 20px;
+    width: 320px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 17px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 17px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 17px 3px rgba(0,0,0,0.75);
+}
+
+.card * {
+    background-color: white;  
+}
+
+/* CARD IMAGES */
+.card-dd {
+    background-image: url(img/doubledown.png);
+}
+
+.card-ph {
+    background-image: url(img/ph.png);
+}
+
+.card-fete {
+    background-image: url(img/fete.jpg);
+}
+
+.card-factor {
+    background-image: url(img/sf9.jpg);
+}
+
+.card-wave {
+    background-image: url(img/wavedash.png);
+}
+
+.card-con {
+    background-image: url(img/ssc.png);
+}
+
+.card-shine {
+    background-image: url(img/shine.png);
+}
+
+.card-riptide {
+    background-image: url(img/riptide.png);
+}
+
+.card-house {
+    background-image: url(img/bighouse.png);
+}
+
+.card-camp {
+    background-image: url(img/camp.png);
+}
+
+.card-apex {
+    background-image: url(img/apex.jpg);
+}
+
+.card-main {
+    background-image: url(img/mainstage.png);
+}
+
+.card-world {
+    background-image: url(img/swt.jpg);
+}
+
+.card-panda {
+    background-image: url(img/panda.webp);
+}
+/* END CARD IMAGES */
+.card-img {
+    height: 170px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px 20px 0 0 ;
+    margin-bottom: 0px;
+}
+
+.card-date {
+    font-size: 17px;
+    padding: 5px;
+}
+
+.card-event {
+    padding-bottom: 5px;
+}
+
+.card-details {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+svg {
+    height: 20px;
+    width: auto;
+}
+
+span {
+    color: rgb(61, 164, 223);
+}
+
+.card-feature {
+    padding-bottom: 10px;
+}
+
+li:last-child {
+    padding-bottom: 20px;
+}
+
+ul li {
+    list-style: none;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 0 0 20px 20px;
+}
+
+.buttons a {
+    text-decoration: none;
+    background-color: rgb(214, 214, 214);
+    padding: 15px 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: black;
+    transition: 0.5s;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(122,122,122,1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(122,122,122,1);
+    box-shadow: 0px 0px 5px 0px rgba(122,122,122,1);
+}
+
+a:hover {
+    background: rgb(255,150,179);
+    background: linear-gradient(90deg, rgba(255,150,179,1) 41%, rgba(214,130,252,1) 100%);
+}
+
+p {
+    text-decoration: underline;
+}
+
+/* BACKGROUND IMAGES */
+.content {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    animation: change 40s infinite ease-in-out;
+}
+
+@keyframes change{
+    0%
+    {
+        background-image: url(img/1.jpg);
+    }
+    20%
+    {
+        background-image: url(img/2.jpg);
+    }
+    40%
+    {
+        background-image: url(img/3.jpg);
+    }
+    60%
+    {
+        background-image: url(img/4.jpg);
+    }
+    80%
+    {
+        background-image: url(img/5.jpg);
+    }
+    100%
+    {
+        background-image: url(img/6.jpg);
+    }
+}
