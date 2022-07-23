@@ -168,11 +168,12 @@ p {
 
 /* BACKGROUND IMAGES */
 .content {
+    background-color: #000000;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    animation: change 40s infinite ease-in-out;
+    animation: change 40s infinite ease-in-out 0s;
 }
 
 @keyframes change{
@@ -180,21 +181,17 @@ p {
     {
         background-image: url(img/1.jpg);
     }
-    20%
+    25%
     {
         background-image: url(img/2.jpg);
     }
-    40%
+    50%
     {
         background-image: url(img/3.jpg);
     }
-    60%
+    75%
     {
         background-image: url(img/4.jpg);
-    }
-    80%
-    {
-        background-image: url(img/5.jpg);
     }
     100%
     {
